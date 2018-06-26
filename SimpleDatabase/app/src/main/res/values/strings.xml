@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple Database</string>
+    <string name="dialog_fire_missiles">Make Changes</string>
+    <string name="fire">Edit</string>
+    <string name="cancel">Delete</string>
+    <string name="clear">clear</string>
+</resources>

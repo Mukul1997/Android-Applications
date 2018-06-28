@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/back22"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/caesar_dressing"
+        android:paddingLeft="70dp"
+        android:text="Login Portal"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="254dp"
+        android:layout_height="207dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="false"
+        android:paddingTop="20dp"
+        app:srcCompat="@drawable/icopubg" />
+
+    <EditText
+        android:id="@+id/uname"
+
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:fontFamily="@font/cutive_mono"
+        android:hint="Username"
+        android:inputType="text"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray" />
+
+    <EditText
+        android:id="@+id/upass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="@font/cutive_mono"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="292dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:baselineAligned="false"
+        android:theme="@style/MyButton"
+        android:text="Login" />
+
+</LinearLayout>

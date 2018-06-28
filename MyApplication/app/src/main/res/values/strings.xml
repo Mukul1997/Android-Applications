@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lil Mush</string>
+    <string name="button">Button1</string>
+    <string name="dash">Dashboard</string>
+
+    <string-array name="infinity">
+        <item>Soul Stone</item>
+        <item>Power Stone</item>
+        <item>Space Stone</item>
+        <item>Reality Stone</item>
+        <item>Time Stone</item>
+        <item>Mind Stone</item>
+    </string-array>
+
+    <string-array name="teams">
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Colombia</item>
+        <item>Denmark</item>
+        <item>Egypt</item>
+        <item>France</item>
+    </string-array>
+
+</resources>

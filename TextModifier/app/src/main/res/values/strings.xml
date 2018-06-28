@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TextModifier</string>
+    <string name="enter_some_text">Enter some text</string>
+    <string name="bold">Bold</string>
+    <string name="normal">Normal</string>
+    <string name="italics">Italics</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="submit">Submit</string>
+    <string name="input_formatting">Input Formatting</string>
+    <string name="t1">Style</string>
+    <string name="t2">Gravity</string>
+    <string name="t3">TextView</string>
+    <string name="centre">Centre</string>
+</resources>

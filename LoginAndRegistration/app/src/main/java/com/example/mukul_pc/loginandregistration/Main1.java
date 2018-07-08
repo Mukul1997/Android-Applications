@@ -55,8 +55,15 @@ public class Main1 extends AppCompatActivity {
         });
     }
 
+        @Override
+        public void onResume() {
+            super.onResume();
+            username.setText("");
+            password.setText("");
+        }
+
     public void login() {
-        String url = "http://192.168.2.9/androidApp/android1.php"; 
+        String url = "http://192.168.2.9/androidApp/android1.php";
 
         StringRequest request = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {

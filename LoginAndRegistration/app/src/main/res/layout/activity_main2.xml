@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wall4"
     tools:context=".Main2">
 
     <TextView
@@ -24,5 +25,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="248dp"
         android:fontFamily="@font/warnes"
+        android:textColor="@android:color/white"
         android:textSize="70sp" />
 </RelativeLayout>

@@ -1,5 +1,6 @@
 package com.example.mukul_pc.loginandregistration;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,13 +21,13 @@ import java.util.Map;
 
 public class Main1 extends AppCompatActivity {
 
+    private Session session;
     private EditText username;
     private EditText password;
     private ImageButton submit;
     String u="";
     String p="";
     int pa;
-    DatabaseConnector db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +36,6 @@ public class Main1 extends AppCompatActivity {
         username = (EditText)findViewById(R.id.usr);
         password = (EditText)findViewById(R.id.pswd);
         submit = (ImageButton)findViewById(R.id.login);
-        db = new DatabaseConnector();
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,21 +56,23 @@ public class Main1 extends AppCompatActivity {
     }
 
     public void login() {
-        String url = "http://192.168.2.9/androidApp/android1.php";
+        String url = "http://192.168.2.9/androidApp/android1.php"; 
 
         StringRequest request = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         if (response.contains("1")) {
+                            session = new Session(getApplicationContext());
+                            session.setUseName(u);
                             Intent obj = new Intent(Main1.this, Main2.class);
-                            Bundle bundle = new Bundle();
-                            bundle.putString("blek", u);
-                            obj.putExtras(bundle);
+                            //Bundle bundle = new Bundle();
+                            //bundle.putString("blek", u);
+                            //obj.putExtras(bundle);
                             startActivity(obj);
                         }
                         else
-                            Toast.makeText(Main1.this, "Wrong username or password", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Main1.this, "Wrong username or password !", Toast.LENGTH_SHORT).show();
                     }
                 }, new Response.ErrorListener() {
             @Override

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FireTrip</string>
+    <string name="register"><a href="#">Register</a></string>
+</resources>

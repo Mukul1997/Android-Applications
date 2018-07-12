@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "29021817088",
+    "firebase_url": "https://firetrip-bc2bc.firebaseio.com",
+    "project_id": "firetrip-bc2bc",
+    "storage_bucket": "firetrip-bc2bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29021817088:android:dc07ba582c39d59c",
+        "android_client_info": {
+          "package_name": "com.example.mukul_pc.firetrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29021817088-umvdc1sts9ihae1bqo8mlrfvra6dpej5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mukul_pc.firetrip",
+            "certificate_hash": "d04ae697ce2d3d0619f7499fac3090c3471d38e4"
+          }
+        },
+        {
+          "client_id": "29021817088-s9oiib1hflt9g7f5q9aqh1al4qsmma7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSlihZ-ErkxV71PUiQRzkM4LjbQZ7Fzwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29021817088-s9oiib1hflt9g7f5q9aqh1al4qsmma7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
